@@ -12,6 +12,16 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
+  var ans=[];
+  for(i =0;i<array.length;i++){
+
+    if( "number"== typeof array[i]){
+      ans.push(array[i]);
+    }
+
+  }
+
+  return ans;
 }
 
 // No modifiques nada debajo de esta linea //

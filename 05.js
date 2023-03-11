@@ -15,6 +15,15 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
 
+  var ans=[];
+
+  for(i=0;i<array.length;i++){
+
+    ans.push(array[i][propiedad]);
+
+  }
+  return ans;
+
 }
 
 // No modifiques nada debajo de esta linea //
